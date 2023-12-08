@@ -1,0 +1,41 @@
+{
+    "chain_name": "cifer",
+    "status": "testnet",
+    "network_type": "testnet",
+    "pretty_name": "cifer",
+    "chain_id": "cifer-1",
+    "bech32_prefix": "cifer",
+    "daemon_name": "cifer",
+    "node_home": "$HOME/.cifer",
+    "genesis": {
+      "genesis_url": "https://raw.githubusercontent.com/cifer/genesis/master/genesis.json"
+    },
+    "key_algos": ["secp256k1"],
+    "slip44": 118,
+    "fees": {
+      "fee_tokens": [
+        {
+          "denom": "cifer",
+          "fixed_min_gas_price": "0.025cif"
+        }
+      ]
+    },
+    "codebase": {
+      "git_repo": "https://github.com/cifer-ai/cifer",
+      "recommended_version": "v1.0.0",
+      "compatible_versions": ["v1.0.0"],
+      "binaries": {
+        "linux/amd64": "https://github.com/cifer/cifer/releases/download/v1.0.0/cifer-linux-amd64-v1.0.0",
+        "darwin/amd64": "https://github.com/cifer/cifer/releases/download/v1.0.0/cifer-darwin-amd64-v1.0.0"
+      }
+    },
+    "explorers": [
+      {
+        "kind": "mintscan",
+        "url": "https://www.mintscan.io/cifer",
+        "tx_page": "https://www.mintscan.io/cifer/txs/{txHash}",
+        "account_page": "https://www.mintscan.io/cifer/account/{address}"
+      }
+    ]
+  }
+  

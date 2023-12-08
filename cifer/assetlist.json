@@ -1,0 +1,33 @@
+{
+    "assets": [
+      {
+        "description": "CIFER.AI Decentralized Collective Learning for Regulatory and Ethical AI",
+        "denom_units": [
+          {
+            "denom": "ibc/ETH123",
+            "exponent": 0,
+            "aliases": ["cifer"]
+          },
+          {
+            "denom": "cifer",
+            "exponent": 6
+          },
+          {
+            "denom": "cifer",
+            "exponent": 18,
+            "aliases": ["cifer"]
+          }
+        ],
+        "base": "ibc/ETH123",
+        "name": "cifer",
+        "display": "cifer",
+        "symbol": "cif",
+        "logo_URIs": {
+          "png": "https://cifer.ai/cif.png",
+          "svg": "https://cifer.ai/cif.svg"
+        },
+        "coingecko_id": "cifer"
+      }
+    ]
+  }
+  
